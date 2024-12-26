@@ -1,5 +1,6 @@
 public class Abdelkader_Jerbi {
 
+ // Methode Calcule Puissance
      public static int calculerPuissance(int base, int exposant) {
         int resultat = 1;
         for (int i = 0; i < exposant; i++) {
