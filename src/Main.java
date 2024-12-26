@@ -12,13 +12,5 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
-        FatmaBarrani f = new FatmaBarrani();
-        f.nombrePaire(2);
-        f.checkNombrePremier(5);
-
         }
-
-
-
-
     }
