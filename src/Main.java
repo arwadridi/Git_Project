@@ -12,5 +12,8 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+
+        System.out.println("Factoriel de 5 : " + factoriel(5));
+        System.out.println("2 puissance 3 : " + puissance(2, 3));
         }
     }
