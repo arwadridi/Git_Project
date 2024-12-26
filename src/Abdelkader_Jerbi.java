@@ -1,0 +1,20 @@
+public class Abdelkader_Jerbi {
+
+     public static int calculerPuissance(int base, int exposant) {
+        int resultat = 1;
+        for (int i = 0; i < exposant; i++) {
+            resultat *= base;
+        }
+        return resultat;
+    }
+
+    
+    public static int calculerPGCD(int a, int b) {
+        while (b != 0) {
+            int reste = a % b;
+            a = b;
+            b = reste;
+        }
+        return a;
+    }
+}
