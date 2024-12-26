@@ -8,7 +8,7 @@ public class Abdelkader_Jerbi {
         return resultat;
     }
 
-    
+    // calcule PGCD
     public static int calculerPGCD(int a, int b) {
         while (b != 0) {
             int reste = a % b;
